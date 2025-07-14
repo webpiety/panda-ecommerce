@@ -1,0 +1,131 @@
+*{
+    
+    box-sizing: border-box;
+}
+
+/* shared-style */
+.poppins-po {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.inter-in {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+button{
+    gap: 10px;
+    bor
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color:#FFFFFF;
+    border-style: none;
+    background:linear-gradient(
+    180deg,
+    rgb(255, 88, 155) -0.006%,
+    rgb(255, 19, 111) 99.994%)
+    
+    
+}
+
+
+.container{
+    max-width: 1212px;
+    margin:auto;
+}
+
+/* nav-bar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap:24px;
+    text-align: center;
+    margin: 0px 24px;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+nav input{
+    display: flex;
+    width: 484.94px;
+    height: 24px;
+    padding:24px;
+    border-radius: 66px;
+    border-style: none;
+    background: rgb(241, 241, 241);
+    fill: rgb(241, 241, 241);
+    
+}
+.search-bar {
+    position:relative;
+}
+.search-bar i{
+    position:absolute;
+    margin-top: -33px;
+    margin-left:455px
+}
+.fa-solid{
+    color:#BABABA;
+
+}
+/* banner */
+.banner{
+    margin-top: 63px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:141px;
+    background-color: #FEEAE9;
+    border-radius: 12px;
+    box-shadow: 0 4px 4px rgb(209, 208, 208);
+}
+.banner-left{
+    padding: 68px 5px 68px 46px;
+}
+.banner img{
+        width: 402px;
+        height:378px;
+        padding: 38px 63px 39px 5px;
+   
+
+}
+.banner h1{
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    
+}
+.banner-description{
+    margin-top: 0;
+    width: 456px;
+    font-size: 16px;
+    color:#4E4E4E;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+.banner-price{
+    font-size: 35px;
+    font-weight:500;
+    color: #FF136F;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.right-arrow{
+    margin-left: 5px;
+    color: #FFFFFF;}
